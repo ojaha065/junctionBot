@@ -1,0 +1,45 @@
+[
+    [
+        {
+            "answers": ["never gonna give you up","rick astley"],
+            "lyrics": "Never gonna give you up.Never gonna let you down.Never gonna run around and desert you.Never gonna make you cry.Never gonna say goodbye.Never gonna tell a lie and hurt you."
+        },
+        {
+            "answers": ["my heart will go on","titanic theme","titanic","celine dion"],
+            "lyrics": "Near, far, wherever you are, I believe that the heart does go on.Once more you open the door.And you're here in my heart.And my heart will go on and on."
+        },
+        {
+            "answers": ["baby","justin bieber"],
+            "lyrics": "And I was like baby, baby, baby oh.Like baby, baby, baby no.Like baby, baby, baby oh.I thought you'd always be mine (mine).Baby, baby, baby oh.Like baby, baby, baby no.Like baby, baby, baby ooh.I thought you'd always be mine."
+        },
+        {
+            "answers": ["hello","adele"],
+            "lyrics": "Hello, it's me.I was wondering if after all these years you'd like to meet.To go over everything.They say that time's supposed to heal ya.But I ain't done much healing."
+        },
+        {
+            "answers": ["wake me up","avicii"],
+            "lyrics": "So wake me up when it's all over.When I'm wiser and I'm older.All this time I was finding myself.And I didn't know I was lost."
+        },
+        {
+            "answers": ["bohemian rhapsody","queen"],
+            "lyrics": "Is this the real life? Is this just fantasy?.Caught in a landslide.No escape from reality.Open your eyes.Look up to the skies and see.I'm just a poor boy, I need no sympathy.Because I'm easy come, easy go.A little high, little low.Anyway the wind blows, doesn't really matter to me, to me."
+        },
+        {
+            "answers": ["eye of the tiger","survivor"],
+            "lyrics": "It's the eye of the tiger, it's the dream of the fight.Risin' up to the challenge of our rival.And the last known survivor stalks his prey in the night.And he's watchin' us all with the eye of the tiger"
+        },
+        {
+            "answers": ["what does the fox say?","the fox","what does the fox say","ylvis","fox"],
+            "lyrics": "Dog goes woof.Cat goes meow.Bird goes tweet.And mouse goes squeek.Cow goes moo.Frog goes croak.And the elephant goes toot.Ducks say quack.And fish go blub.And the seal goes ow ow ow"
+        },
+        {
+            "answers": ["take me to church","hozier"],
+            "lyrics": "Take me to church.I'll worship like a dog at the shrine of your lies.I'll tell you my sins and you can sharpen your knife.Offer me that deathless death.Good God, let me give you my life"
+        },
+        {
+            "answers": ["barbie girl","barbie song","barbie","aqua"],
+            "lyrics": "I'm a Barbie girl, in a Barbie world.Life in plastic, it's fantastic.You can brush my hair, undress me everywhere.Imagination, life is your creation."
+        }
+    ],
+    ["da","nl","fi","fr","de","ru","sv","es","it","zh","hr","ja","pl"] 
+]

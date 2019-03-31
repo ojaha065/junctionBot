@@ -1,0 +1,21 @@
+{
+  "name": "gts",
+  "version": "1.0.0",
+  "description": "My entry to Junction Online Challenge (March 2019)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jani Haiko",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ojaha065/junctionBot.git"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^2.1.4",
+    "request": "^2.88.0",
+    "telegraf": "^3.28.0"
+  }
+}
