@@ -138,7 +138,10 @@ module.exports = {
         let theGuess = ctx.message.text.toLowerCase();
         //console.log(theGuess);
         if(songs[ctx.session.gameData.selected_index].answers.includes(theGuess)){
-            return callback(true); // The answer was correct
+            // The answer was correct
+            ctx.reply("Correct!");
+            ctx.reply(`Original:\n\n${songs[ctx.session.gameData.selected_index].lyrics.replace(/\./g,"\n")}`);
+            return callback(true);
         }
         else{
             return callback(false);
@@ -146,6 +149,7 @@ module.exports = {
     },
     skip: (ctx,callback) => {
         ctx.reply(`The correct answer would have been ${songs[ctx.session.gameData.selected_index].answers[0].toUpperCase()} or ${songs[ctx.session.gameData.selected_index].answers[1].toUpperCase()}`);
+        ctx.reply(`Original:\n\n${songs[ctx.session.gameData.selected_index].lyrics.replace(/\./g,"\n")}`);
         return callback();
     }
 };

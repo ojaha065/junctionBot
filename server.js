@@ -31,7 +31,7 @@ bot.use((ctx,next) => {
         ctx.session.gameData = {
             state: 0, // Not playing
             round: 0,
-            selected_index: null, // Whitch song from the database is this user currently guessing
+            selected_index: null, // Which song from the database is this user currently guessing
             easyMode: false,
             playedSongs: [], // This user has already guessed these songs, so they shouldn't be played again
         };
@@ -130,11 +130,10 @@ bot.on("text",(ctx) => {
         ctx.session.gameData.state = 3; // Playing, waiting for the server
         game.guess(ctx,(correct) => {
             if(correct){
-                ctx.reply("Correct!");
                 // The answer was correct, let's wait a bit before continuing
                 setTimeout(() => {
                     game.round(ctx);
-                },1500);
+                },2500);
             }
             else{
                 ctx.reply("Sorry, that's not right. Maybe try again?");
