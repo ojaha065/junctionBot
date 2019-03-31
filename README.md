@@ -11,7 +11,7 @@ And that's exactly what I did. My protoype only includes ten songs, but you get 
 I was planning to host the bot on my RPi but it had other plans. Therefore I had to host it on Heroku, which is sub-optimal, to say at least.
 
 ## How to play
-Just search `@GtS_translate_bot` on Telegram. Group invites and inline mode are disabled, so the only way to play is to start a direct chat with the bot. The bot will tell you all other instructions you need.
+Just search [`@GtS_translate_bot`](https://t.me/GtS_translate_bot) on Telegram. Group invites and inline mode are disabled, so the only way to play is to start a direct chat with the bot. The bot will tell you all other instructions you need.
 
 ## Possible further development
 I didn't have time to look into it at this time but there might be an API for song lyrics too. If there is, it would allow almost endless games.
